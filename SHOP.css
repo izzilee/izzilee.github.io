@@ -1,0 +1,119 @@
+body {
+    background: url("img/Untitled_Artwork 2.png");
+}
+
+.title {
+    font-family: "Apple LiGothic";
+    font-size: 60px;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.blurb4 {
+    font-family: "Apple LiGothic";
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 150px;
+}
+
+.zine {
+    border: 5px solid #f6e01e;
+    margin-left: 15%;
+    width: 30%;
+    box-shadow: 5px 5px 5px 5px rgba(80,20,20,0.4);
+
+
+}
+
+.ZINETT {
+    font-family: "Apple LiGothic";
+    font-size: 60px;
+    font-weight: bold;
+    color: azure;
+    text-align: left;
+    margin-left: 54%;
+    margin-top: -40%;
+}
+
+.blurb2 {
+    text-align: left;
+    line-height: 1.6;
+    font-family: "Apple LiGothic";
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    margin-left: 54%;
+    margin-bottom: 4%;
+}
+
+.buybutton {
+    margin-left: 64%;
+    margin-top: 3%;
+
+}
+
+.stars {
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -14%;
+}
+
+
+.home {
+    width: 90px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.home-cont {
+    left: 20%;
+    top: 8%;
+    width: 90px;
+    height: 90px;
+}
+
+.home:hover {
+    opacity: 50%;
+}
+
+
+.tiktok {
+    width: 80px;
+}
+
+.tiktok-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 78%;
+    margin-top: 2%;
+}
+
+.tiktok-container:hover .tiktok{
+    transition: opacity;
+    opacity: 50%;
+}
+
+.insta {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.insta-container{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 85%;
+    margin-top: 2%
+}
+
+.insta-container:hover .insta{
+    transition: opacity;
+    opacity: 50%;
+}
+

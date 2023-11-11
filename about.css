@@ -1,0 +1,104 @@
+body {
+    background: url("img/Untitled_Artwork 2.png");
+}
+
+
+.home {
+    width: 90px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.home-cont {
+    left: 20%;
+    top: 8%;
+    width: 90px;
+    height: 90px;
+}
+
+.home:hover {
+    opacity: 50%;
+}
+
+.about-page {
+    font-family: "Apple LiGothic";
+    font-size: 90px;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+
+.blurb2 {
+    text-align: left;
+    line-height: 1.6;
+    font-family: "Apple LiGothic";
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    margin-top: -20px;
+    margin-left: 50%;
+    margin-bottom: 80px;
+}
+
+.IZZI {
+    font-family: "Apple LiGothic";
+    font-size: 60px;
+    font-weight: bold;
+    color: azure;
+    text-align: left;
+    margin-left: 50%;
+    margin-top: 12%;
+}
+
+.pic {
+    position: absolute;
+    width: 600px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.bottom-space {
+    position: absolute;
+    margin-top: 18%;
+    height: 4%;
+    width: 100%;
+}
+
+
+
+
+.tiktok {
+    width: 80px;
+}
+
+.tiktok-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 77%;
+}
+
+.tiktok-container:hover .tiktok{
+    transition: opacity;
+    opacity: 50%;
+}
+
+.insta {
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.insta-container{
+    position: absolute;
+    margin-left: 82%;
+    width: 100px;
+    height: 100px;
+}
+
+.insta-container:hover .insta{
+    transition: opacity;
+    opacity: 50%;
+}

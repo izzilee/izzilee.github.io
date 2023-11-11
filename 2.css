@@ -1,0 +1,176 @@
+body {
+    background: url("img/Untitled_Artwork 2.png");
+}
+
+
+.img-story-container{
+    position: absolute;
+    left:73%;
+    top: 30%;
+    width: 200px;
+    height: 150px;
+}
+
+.img-story{
+    width: 500px;
+    margin-left: -67%;
+    margin-top: -158%;
+
+}
+
+.img-story-container:hover .img-story{
+    width: 600px;
+    margin-top: -200%;
+    margin-left: -95%;
+}
+
+
+.img-about-container{
+    position: absolute;
+    left:10%;
+    top: 55%;
+    width: 200px;
+    height: 150px;
+}
+
+.img-about{
+    width: 500px;
+    margin-left: -57%;
+    margin-top: -40%;
+
+}
+
+.img-about-container:hover .img-about{
+    width: 600px;
+    margin-top: -100px;
+    margin-left: -135px;
+}
+
+
+.img-title-container{
+    position: absolute;
+    left:8%;
+    top: 8%;
+    width: 200px;
+    height: 150px;
+}
+
+.img-title{
+    width: 500px;
+    margin-top: -50%;
+    margin-left: -70%;
+
+}
+
+.img-title-container:hover .img-title{
+    width: 550px;
+    margin-top: -60%;
+    margin-left: -80%;
+}
+
+
+.img-illust-container{
+    position: absolute;
+    left:43%;
+    top: 40%;
+    width: 250px;
+    height: 200px;
+}
+
+.img-illust{
+    width: 500px;
+    margin-top: -30%;
+    margin-left: -65%;
+
+}
+
+.img-illust-container:hover .img-illust{
+    width: 600px;
+    margin-top: -50%;
+    margin-left: -80%;
+}
+
+
+.img-contact-container{
+    position: absolute;
+    left:35%;
+    top: 15%;
+    width: 200px;
+    height: 150px;
+}
+
+.img-contact{
+    width: 400px;
+    margin-left: -95px;
+    margin-top: -45px;
+}
+
+.img-contact:hover {
+    width: 450px;
+    margin-top: -67px;
+    margin-left: -105px;
+}
+
+
+
+
+.img-shop:hover {
+    background-size: 130%;
+    background-position: center;
+}
+
+
+.img-shop-container{
+    position: absolute;
+    left:60%;
+    top: 70%;
+    width: 180px;
+    height: 130px;
+}
+
+.img-shop{
+    width: 500px;
+    margin-top: -140%;
+    margin-left: -40%;
+
+}
+
+.img-shop-container:hover .img-shop{
+    scale: 1.2;
+}
+
+.tiktok {
+    width: 80px;
+    margin-left: 60%;
+}
+
+.tiktok-container {
+    position: absolute;
+    left: 75%;
+    top: 83%;
+    width: 100px;
+    height: 100px;
+}
+
+.tiktok-container:hover .tiktok{
+    transition: opacity;
+    opacity: 50%;
+}
+
+.insta {
+    width: 80px;
+    margin-left: 40%;
+}
+
+.insta-container{
+    position: absolute;
+    left: 83%;
+    top: 82.7%;
+    width: 100px;
+    height: 100px;
+}
+
+.insta-container:hover .insta {
+    transition: opacity;
+    opacity: 50%;
+}
