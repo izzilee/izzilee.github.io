@@ -102,3 +102,104 @@ body {
     transition: opacity;
     opacity: 50%;
 }
+
+@media screen and (max-width: 1405px) {
+    .pic {
+        width: 40%;
+        margin-top: 20%;
+    }
+    .tiktok {
+        width: 80px;
+        pointer-events:none;
+    }
+
+    .tiktok-container {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-left: 73%;
+    }
+
+    .tiktok-container:hover .tiktok{
+        transition: opacity;
+        opacity: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 900px){
+    .pic {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 22%;
+    }
+    .about-page {
+        font-family: "Apple LiGothic";
+        font-size: 74px;
+        font-weight: bold;
+        color: gold;
+        text-align: left;
+        margin-bottom: -5%;
+        margin-left: 35%;
+    }
+
+    .blurb2 {
+        text-align: center;
+        line-height: 1.6;
+        font-family: "Apple LiGothic";
+        font-size: 20px;
+        font-weight: bold;
+        color: azure;
+        padding: 10%;
+        margin-left: 1%;
+        margin-bottom: 80px;
+        margin-top: -10%;
+    }
+
+    .IZZI {
+        font-family: "Apple LiGothic";
+        font-size: 60px;
+        font-weight: bold;
+        color: azure;
+        text-align: left;
+        margin-top: 93%;
+        margin-left: 33%;
+    }
+
+
+    .tiktok {
+        width: 80px;
+        pointer-events:none;
+    }
+
+    .tiktok-container {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-left: 30%;
+    }
+
+    .tiktok-container:hover .tiktok{
+        transition: opacity;
+        opacity: 50%;
+    }
+
+    .insta {
+        width: 80px;
+        margin-bottom: 5px;
+        pointer-events:none;
+    }
+
+    .insta-container{
+        position: absolute;
+        margin-left: 49%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .insta-container:hover .insta{
+        transition: opacity;
+        opacity: 50%;
+    }
+}
